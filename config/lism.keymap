@@ -54,7 +54,7 @@
 &kp Q             &kp W         &kp E   &kp R           &kp T                                            &kp Y        &kp U           &kp I      &kp O            &kp P
 &kp A             &kp S         &kp D   &kp F           &kp G                                            &kp H        &kp J           &kp K      &kp L            &mt DELETE SEMICOLON
 &kp Z             &kp X         &kp C   &kp V           &kp B                                            &kp N        &kp M           &kp COMMA  &kp DOT          &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &tog 1  &kp LS(LG(N4))  &lt 2 LC(SPACE)  &lt 3 SPACE    &lt 3 BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp TAB    &kp RIGHT_SHIFT  &lt 4 ESC
+&kp LEFT_CONTROL  &kp LEFT_WIN  &tog 1  &kp LS(LG(N4))  &lt 2 LC(SPACE)  &lt 1 SPACE    &lt 3 BACKSPACE  &lt 2 ENTER  &kp LS(LG(N4))  &kp TAB    &kp RIGHT_SHIFT  &lt 4 ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -63,10 +63,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp SPACE            &mkp MB1  &mkp MB2        &mkp MB3        &kp PRINTSCREEN
-&trans  &trans  &trans  &trans  &trans                    &kp LG(LEFT_ARROW)   &mkp MB5  &trans          &msc SCRL_UP    &msc SCRL_DOWN
-&trans  &trans  &trans  &trans  &trans                    &kp LG(RIGHT_ARROW)  &mkp MB4  &kp RC(TAB)     &kp UP_ARROW    &kp RS(RC(TAB))
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans               &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&trans  &trans  &trans  &trans  &trans                    &kp SPACE            &mkp MB1  &mkp MB2         &mkp MB3        &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans                    &kp LG(LEFT_ARROW)   &mkp MB5  &none            &msc SCRL_UP    &msc SCRL_DOWN
+&trans  &trans  &trans  &trans  &trans                    &kp LG(RIGHT_ARROW)  &mkp MB4  &kp RC(RS(TAB))  &kp UP_ARROW    &kp RC(TAB)
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans               &trans    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -75,8 +75,8 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &trans
-&trans  &trans  &trans  &trans  &trans                    &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp DOT
+&trans  &trans  &trans  &trans  &trans                    &kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none
+&trans  &trans  &trans  &trans  &trans                    &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none
 &trans  &trans  &trans  &trans  &trans                    &kp PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RSHIFT
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans           &kp KP_NUMBER_0  &kp LEFT_ARROW   &kp RIGHT_ARROW
             >;
