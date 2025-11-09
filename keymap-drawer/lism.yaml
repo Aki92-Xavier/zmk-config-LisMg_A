@@ -33,14 +33,14 @@ layers:
   - /
   - LEFT CONTROL
   - LEFT WIN
-  - {t: TAB, h: Mouse Layer}
+  - {t: Mouse Layer, h: toggle}
   - Sft+Gui+4
   - {t: Ctl+SPACE, h: Number Layer}
   - {t: SPACE, h: Mark Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
-  - {t: Mouse Layer, h: toggle}
+  - TAB
   - RIGHT SHIFT
   - {t: ESC, h: Device Layer}
   Mouse Layer:
@@ -76,7 +76,7 @@ layers:
   - Sft+Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
