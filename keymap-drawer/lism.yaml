@@ -36,7 +36,7 @@ layers:
   - {t: Mouse Layer, h: toggle}
   - Sft+Gui+4
   - {t: Ctl+SPACE, h: Number Layer}
-  - {t: SPACE, h: Mark Layer}
+  - {t: SPACE, h: Mouse Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - Sft+Gui+4
@@ -61,7 +61,7 @@ layers:
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - '&mkp MB5'
-  - {t: ▽, type: trans}
+  - ''
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
@@ -71,15 +71,15 @@ layers:
   - {t: ▽, type: trans}
   - Gui+RIGHT ARROW
   - '&mkp MB4'
-  - Ctl+TAB
+  - Ctl+Sft+TAB
   - UP ARROW
-  - Sft+Ctl+TAB
+  - Ctl+TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,7 +96,7 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - {t: ▽, type: trans}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,7 +106,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - .
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,8 +165,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
-  - {t: ▽, type: trans}
+  - SPACE
+  - {type: held}
   - ENTER
   - ''
   - ''
