@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: ;, h: DEL}
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: RIGHT SHIFT}
   - LEFT CONTROL
   - LEFT WIN
   - {t: Mouse Layer, h: toggle}
